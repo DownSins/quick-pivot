@@ -1,0 +1,27 @@
+schema_version = "1.0.0"
+
+id = "quick_pivot"
+version = "1.0.0"
+name = "Quick Pivot"
+tagline = "Quickly adjust pivot points and toggle gizmos with hotkeys"
+maintainer = "Down Sins"
+type = "add-on"
+
+website = "https://github.com/DownSins/quick-pivot" 
+blender_version_min = "4.3.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+tags = ["3D View", "Interface", "Transform"]
+
+platforms = ["windows-x64", "macos-x64", "linux-x64"]
+
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  ".*",
+  "*.zip"
+]
